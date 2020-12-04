@@ -44,7 +44,7 @@ namespace WindowsFormsNet50
             this.OpenFormButton.Name = "OpenFormButton";
             this.OpenFormButton.Size = new System.Drawing.Size(177, 37);
             this.OpenFormButton.TabIndex = 0;
-            this.OpenFormButton.Text = "Open New Form";
+            this.OpenFormButton.Text = "Open New Form...";
             this.OpenFormButton.UseVisualStyleBackColor = true;
             this.OpenFormButton.Click += new System.EventHandler(this.OpenFormButton_Click);
             // 
