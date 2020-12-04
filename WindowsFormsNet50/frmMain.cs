@@ -46,8 +46,8 @@ namespace WindowsFormsNet50
             var location = await locator.GetGeopositionAsync();
             var position = location.Coordinate.Point.Position;
 
-            lblLatitude.Text = $"Latitude: {position.Latitude}";
-            lblLongitude.Text = $"Longitude: {position.Longitude}";
+            lblLatitude.Text = $"Latitude: {position.Latitude:N6}";
+            lblLongitude.Text = $"Longitude: {position.Longitude:N6}";
         }
 
         private async void TakePictureButton_Click(object sender, EventArgs e)
