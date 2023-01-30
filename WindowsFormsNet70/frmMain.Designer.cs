@@ -110,7 +110,7 @@ namespace WindowsFormsNet50
             this.MinimizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Windows Forms with .NET 5.0";
+            this.Text = "Windows Forms with .NET 7.0";
             ((System.ComponentModel.ISupportInitialize)(this.picPhoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

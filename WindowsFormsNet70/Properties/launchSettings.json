@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "WindowsFormsNet50": {
+    "WindowsFormsNet70": {
       "commandName": "Project",
       "environmentVariables": {
         "DOTNET_ENVIRONMENT": "Development"

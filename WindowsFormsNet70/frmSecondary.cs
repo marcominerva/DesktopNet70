@@ -8,13 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsNet50
+namespace WindowsFormsNet50;
+
+public partial class frmSecondary : Form
 {
-    public partial class frmSecondary : Form
+    public frmSecondary()
     {
-        public frmSecondary()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }
